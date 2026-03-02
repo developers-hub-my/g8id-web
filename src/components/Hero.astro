@@ -1,0 +1,91 @@
+---
+---
+
+<section class="relative overflow-hidden pt-32 pb-20 lg:pt-40 lg:pb-32">
+  <!-- Grid background -->
+  <div class="pointer-events-none absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg width=%2240%22 height=%2240%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath d=%22M0 0h40v40H0z%22 fill=%22none%22 stroke=%22%2300D4FF%22 stroke-width=%220.5%22/%3E%3C/svg%3E');"></div>
+
+  <div class="relative mx-auto max-w-7xl px-6">
+    <div class="grid items-center gap-16 lg:grid-cols-2">
+      <div>
+        <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-cyan-400/20 bg-cyan-400/5 px-4 py-1.5">
+          <span class="h-2 w-2 rounded-full bg-cyan-400"></span>
+          <span class="font-display text-xs tracking-wide text-cyan-400">On-Premise &middot; Air-Gappable &middot; Your Infrastructure</span>
+        </div>
+
+        <h1 class="font-display text-4xl font-bold leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
+          One Gate.<br />
+          <span class="text-cyan-400">Every Identity.</span>
+        </h1>
+
+        <p class="mt-6 max-w-xl text-lg leading-relaxed text-slate-400">
+          G8ID sits between your business and your identity stores. Every provision, update, and offboard passes through one controlled, audited, approval-gated pipeline. No one touches Active Directory directly anymore.
+        </p>
+
+        <div class="mt-10 flex flex-wrap gap-4">
+          <a
+            href="mailto:tech@devhub.my?subject=G8ID%20Demo%20Request"
+            class="rounded-lg bg-amber-500 px-8 py-3.5 text-sm font-semibold text-navy-950 transition-colors hover:bg-amber-400"
+          >
+            Request a Demo
+          </a>
+          <a
+            href="#how-it-works"
+            class="rounded-lg border border-slate-700 px-8 py-3.5 text-sm font-semibold text-slate-300 transition-colors hover:border-cyan-400/50 hover:text-cyan-400"
+          >
+            See How It Works
+          </a>
+        </div>
+      </div>
+
+      <!-- Architecture diagram -->
+      <div class="flex items-center justify-center">
+        <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md">
+          <!-- Connection lines -->
+          <line x1="200" y1="100" x2="80" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="200" y1="100" x2="200" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="200" y1="100" x2="320" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+
+          <!-- Top sources -->
+          <line x1="100" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="200" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="300" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+
+          <!-- Source nodes -->
+          <rect x="55" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="100" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">HR System</text>
+
+          <rect x="155" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="200" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Helpdesk</text>
+
+          <rect x="255" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="300" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Self-Service</text>
+
+          <!-- G8ID Gate - central node -->
+          <rect x="140" y="68" width="120" height="56" rx="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-width="2"/>
+          <text x="200" y="92" text-anchor="middle" fill="#00D4FF" font-size="16" font-weight="bold" font-family="monospace">G8ID</text>
+          <text x="200" y="112" text-anchor="middle" fill="#00D4FF" font-size="10" font-family="monospace" opacity="0.7">THE GATE</text>
+
+          <!-- Pulse ring -->
+          <rect x="136" y="64" width="128" height="64" rx="10" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.2">
+            <animate attributeName="opacity" values="0.2;0.05;0.2" dur="3s" repeatCount="indefinite"/>
+          </rect>
+
+          <!-- Flow labels -->
+          <text x="200" y="160" text-anchor="middle" fill="#475569" font-size="10" font-family="monospace">Request → Approve → Execute → Audit</text>
+
+          <!-- Target nodes -->
+          <rect x="30" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="80" y="258" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Active</text>
+          <text x="80" y="274" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Directory</text>
+
+          <rect x="150" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="200" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">LDAP</text>
+
+          <rect x="270" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="320" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Keycloak</text>
+        </svg>
+      </div>
+    </div>
+  </div>
+</section>

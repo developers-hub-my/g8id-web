@@ -1,0 +1,35 @@
+---
+import '../styles/global.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const {
+  title = 'G8ID — Identity Data Management | On-Premise IAM',
+  description = 'G8ID is an on-premise Identity Data Management system. Control Active Directory, LDAP, and Keycloak from one gate — with approval workflows, audit logs, and full data sovereignty.',
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta property="og:title" content="G8ID — One Gate. Every Identity." />
+    <meta property="og:description" content="On-premise IDM for enterprises. Provision, manage, and offboard identities across AD, LDAP, and Keycloak with full audit trails." />
+    <meta property="og:url" content="https://g8id.com" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="canonical" href="https://g8id.com" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link href="https://fonts.bunny.net/css?family=space-mono:400,700|ibm-plex-sans:400,500,600,700" rel="stylesheet" />
+  </head>
+  <body class="antialiased">
+    <slot />
+  </body>
+</html>

@@ -1,17 +1,30 @@
 ---
-
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Navbar from '../components/Navbar.astro';
+import Hero from '../components/Hero.astro';
+import ProblemSection from '../components/ProblemSection.astro';
+import SolutionSection from '../components/SolutionSection.astro';
+import FeaturesSection from '../components/FeaturesSection.astro';
+import OnPremiseSection from '../components/OnPremiseSection.astro';
+import ModulesSection from '../components/ModulesSection.astro';
+import UseCasesSection from '../components/UseCasesSection.astro';
+import HowItWorksSection from '../components/HowItWorksSection.astro';
+import CtaSection from '../components/CtaSection.astro';
+import Footer from '../components/Footer.astro';
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<link rel="icon" href="/favicon.ico" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout>
+  <Navbar />
+  <main>
+    <Hero />
+    <ProblemSection />
+    <SolutionSection />
+    <FeaturesSection />
+    <OnPremiseSection />
+    <ModulesSection />
+    <UseCasesSection />
+    <HowItWorksSection />
+    <CtaSection />
+  </main>
+  <Footer />
+</BaseLayout>
