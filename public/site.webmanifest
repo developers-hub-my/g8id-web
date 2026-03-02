@@ -1,0 +1,16 @@
+{
+  "name": "G8ID — Identity Data Management",
+  "short_name": "G8ID",
+  "description": "On-premise Identity Data Management. Control AD, LDAP, and Keycloak from one gate.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0E1A",
+  "theme_color": "#00D4FF",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}
