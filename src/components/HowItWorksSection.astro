@@ -18,7 +18,7 @@ const steps = [
   {
     number: '04',
     title: 'Automated Provisioning',
-    description: 'G8ID provisions the identity to Active Directory, LDAP, and Keycloak simultaneously. No manual steps.',
+    description: 'G8ID provisions the identity to Active Directory and LDAP. SSO providers like Keycloak pick up changes automatically via federation.',
   },
   {
     number: '05',
@@ -27,8 +27,8 @@ const steps = [
   },
   {
     number: '06',
-    title: 'Access Delivered',
-    description: 'User receives credentials and access. Time-bounded permissions auto-expire when the window closes.',
+    title: 'Account Activated',
+    description: 'Users receive an activation link via email. They set their own password and activate their account — no IT intervention needed. Activation can also be triggered programmatically from your existing onboarding application via the G8ID API. Time-bounded permissions auto-expire when the window closes.',
   },
 ];
 ---

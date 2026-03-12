@@ -24,7 +24,7 @@
 
         <div class="mt-10 flex flex-wrap gap-4">
           <a
-            href="mailto:tech@devhub.my?subject=G8ID%20Demo%20Request"
+            href="mailto:sales@g8id.com?subject=G8ID%20Demo%20Request"
             class="rounded-lg bg-amber-500 px-8 py-3.5 text-sm font-semibold text-navy-950 transition-colors hover:bg-amber-400"
           >
             Request a Demo
@@ -40,11 +40,10 @@
 
       <!-- Architecture diagram -->
       <div class="flex items-center justify-center">
-        <svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md">
+        <svg viewBox="0 0 400 330" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md">
           <!-- Connection lines -->
-          <line x1="200" y1="100" x2="80" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-          <line x1="200" y1="100" x2="200" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-          <line x1="200" y1="100" x2="320" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="200" y1="100" x2="120" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
+          <line x1="200" y1="100" x2="280" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
 
           <!-- Top sources -->
           <line x1="100" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
@@ -75,15 +74,16 @@
           <text x="200" y="160" text-anchor="middle" fill="#475569" font-size="10" font-family="monospace">Request → Approve → Execute → Audit</text>
 
           <!-- Target nodes -->
-          <rect x="30" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="80" y="258" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Active</text>
-          <text x="80" y="274" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Directory</text>
+          <rect x="60" y="240" width="120" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="120" y="258" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Active</text>
+          <text x="120" y="274" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Directory</text>
 
-          <rect x="150" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="200" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">LDAP</text>
+          <rect x="220" y="240" width="120" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
+          <text x="280" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">LDAP</text>
 
-          <rect x="270" y="240" width="100" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="320" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Keycloak</text>
+          <!-- Keycloak federates from AD -->
+          <line x1="120" y1="284" x2="120" y2="310" stroke="#475569" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
+          <text x="200" y="308" text-anchor="middle" fill="#475569" font-size="9" font-family="monospace">Keycloak federates from AD automatically</text>
         </svg>
       </div>
     </div>

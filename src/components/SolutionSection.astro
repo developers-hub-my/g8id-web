@@ -12,7 +12,7 @@
           G8ID is an Identity Data Management system that sits between your business processes and your identity stores. Every identity operation — provision, update, disable, offboard — passes through G8ID's controlled pipeline.
         </p>
         <p class="mt-4 text-lg leading-relaxed text-slate-400">
-          No one touches Active Directory, LDAP, or Keycloak directly anymore. Every action follows one path:
+          No one touches Active Directory or LDAP directly anymore. SSO providers like Keycloak pick up changes automatically via federation. Every action follows one path:
         </p>
 
         <div class="mt-8 flex flex-wrap gap-3">
@@ -55,19 +55,18 @@
           <text x="180" y="146" text-anchor="middle" fill="#00D4FF" font-size="9" font-family="monospace" opacity="0.6">GATE</text>
 
           <!-- Arrows down to targets -->
-          <path d="M155 156 L80 220" stroke="#00D4FF" stroke-width="1" opacity="0.4" marker-end="url(#arrowhead)"/>
-          <path d="M180 156 L180 220" stroke="#00D4FF" stroke-width="1" opacity="0.4" marker-end="url(#arrowhead)"/>
-          <path d="M205 156 L280 220" stroke="#00D4FF" stroke-width="1" opacity="0.4" marker-end="url(#arrowhead)"/>
+          <path d="M160 156 L110 220" stroke="#00D4FF" stroke-width="1" opacity="0.4" marker-end="url(#arrowhead)"/>
+          <path d="M200 156 L250 220" stroke="#00D4FF" stroke-width="1" opacity="0.4" marker-end="url(#arrowhead)"/>
 
           <!-- Target nodes -->
-          <rect x="30" y="224" width="100" height="40" rx="6" fill="#151D38" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-          <text x="80" y="248" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="monospace">Active Directory</text>
+          <rect x="50" y="224" width="120" height="40" rx="6" fill="#151D38" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
+          <text x="110" y="248" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="monospace">Active Directory</text>
 
-          <rect x="130" y="224" width="100" height="40" rx="6" fill="#151D38" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-          <text x="180" y="248" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="monospace">LDAP</text>
+          <rect x="190" y="224" width="120" height="40" rx="6" fill="#151D38" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
+          <text x="250" y="248" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="monospace">LDAP</text>
 
-          <rect x="230" y="224" width="100" height="40" rx="6" fill="#151D38" stroke="#00D4FF" stroke-width="0.5" opacity="0.6"/>
-          <text x="280" y="248" text-anchor="middle" fill="#94A3B8" font-size="10" font-family="monospace">Keycloak</text>
+          <!-- Keycloak federation note -->
+          <text x="180" y="284" text-anchor="middle" fill="#475569" font-size="8" font-family="monospace">Keycloak federates from AD automatically</text>
 
           <defs>
             <marker id="arrowhead" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">

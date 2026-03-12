@@ -11,8 +11,8 @@ const modules = [
     id: 'connect',
     name: 'G8ID Connect',
     tagline: 'Connector Layer',
-    description: 'The bridge to your identity stores. Connectors for Active Directory, LDAP, and Keycloak — with bidirectional sync, drift detection, and reconciliation.',
-    features: ['AD connector', 'LDAP connector', 'Keycloak connector', 'Drift detection', 'Reconciliation engine'],
+    description: 'The bridge to your identity stores. Connectors for Active Directory and LDAP — abstracted behind a contract so you can add new targets without touching core logic. Includes drift detection and reconciliation.',
+    features: ['AD connector', 'LDAP connector', 'Contract-based architecture', 'Drift detection', 'Reconciliation engine'],
   },
   {
     id: 'flow',
