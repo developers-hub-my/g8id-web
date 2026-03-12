@@ -1,43 +1,64 @@
-# Astro Starter Kit: Minimal
+# G8ID Web
 
-```sh
-npm create astro@latest -- --template minimal
+[![Latest Version](https://img.shields.io/github/v/release/developers-hub-my/g8id-web?style=flat-square)](https://github.com/developers-hub-my/g8id-web/releases)
+[![Netlify Status](https://img.shields.io/netlify/placeholder?style=flat-square)](https://app.netlify.com)
+
+Marketing website for [G8ID](https://g8id.com) — an on-premise Identity Data Management system by [Developers Hub Sdn Bhd](https://devhub.my).
+
+## Tech Stack
+
+- **Framework**: [Astro 5](https://astro.build) (static output)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com)
+- **Interactivity**: [Alpine.js](https://alpinejs.dev)
+- **Deployment**: [Netlify](https://netlify.com)
+
+## Getting Started
+
+```bash
+npm install
+npm run dev        # Dev server at localhost:4321
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Commands
 
-## 🚀 Project Structure
+| Command           | Action                             |
+| :---------------- | :--------------------------------- |
+| `npm run dev`     | Start local dev server             |
+| `npm run build`   | Build production site to `./dist/` |
+| `npm run preview` | Preview production build locally   |
 
-Inside of your Astro project, you'll see the following folders and files:
+## Project Structure
 
 ```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+src/
+├── components/          # Landing page sections
+│   ├── Navbar.astro
+│   ├── Hero.astro
+│   ├── ProblemSection.astro
+│   ├── SolutionSection.astro
+│   ├── FeaturesSection.astro
+│   ├── OnPremiseSection.astro
+│   ├── WhyOnPremiseSection.astro
+│   ├── ModulesSection.astro
+│   ├── UseCasesSection.astro
+│   ├── HowItWorksSection.astro
+│   ├── TechnicalSection.astro
+│   ├── DocsSection.astro
+│   ├── CtaSection.astro
+│   └── Footer.astro
+├── layouts/
+│   └── BaseLayout.astro
+├── pages/
+│   └── index.astro
+└── styles/
+    └── global.css       # Tailwind v4 @theme (colors, fonts)
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Documentation
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+See [docs/README.md](docs/README.md) for full documentation.
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Related
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **G8ID App** — the product codebase (Laravel)
+- **Domain**: [g8id.com](https://g8id.com)
