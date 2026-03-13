@@ -2,9 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(npm install:*)",
+      "Bash(npm run:*)",
       "Bash(npx astro:*)",
       "Bash(git:*)",
-      "Bash(npm run:*)"
+      "Bash(~/.claude/lint.sh:*)",
+      "Bash(rm:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)"
     ]
   }
 }
