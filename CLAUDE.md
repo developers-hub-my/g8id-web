@@ -48,12 +48,15 @@ src/
 │   ├── ProblemSection.astro
 │   ├── SolutionSection.astro
 │   ├── FeaturesSection.astro
+│   ├── LifecycleSection.astro
 │   ├── OnPremiseSection.astro
 │   ├── WhyOnPremiseSection.astro
 │   ├── ModulesSection.astro
+│   ├── OffboardingSection.astro
+│   ├── IntegrationsSection.astro
 │   ├── UseCasesSection.astro
 │   ├── HowItWorksSection.astro
-│   ├── TechnicalSection.astro
+│   ├── ComplianceSection.astro
 │   ├── DocsSection.astro
 │   ├── CtaSection.astro
 │   └── Footer.astro
