@@ -38,53 +38,16 @@
         </div>
       </div>
 
-      <!-- Architecture diagram -->
+      <!-- Product screenshot -->
       <div class="flex items-center justify-center">
-        <svg viewBox="0 0 400 330" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-full max-w-md">
-          <!-- Connection lines -->
-          <line x1="200" y1="100" x2="120" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-          <line x1="200" y1="100" x2="280" y2="260" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-
-          <!-- Top sources -->
-          <line x1="100" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-          <line x1="200" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-          <line x1="300" y1="30" x2="200" y2="70" stroke="#00D4FF" stroke-width="1" stroke-dasharray="4 4" opacity="0.3"/>
-
-          <!-- Source nodes -->
-          <rect x="55" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="100" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">HR System</text>
-
-          <rect x="155" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="200" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Helpdesk</text>
-
-          <rect x="255" y="10" width="90" height="32" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="300" y="30" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Self-Service</text>
-
-          <!-- G8ID Gate - central node -->
-          <rect x="140" y="68" width="120" height="56" rx="8" fill="#00D4FF" fill-opacity="0.1" stroke="#00D4FF" stroke-width="2"/>
-          <text x="200" y="92" text-anchor="middle" fill="#00D4FF" font-size="16" font-weight="bold" font-family="monospace">G8ID</text>
-          <text x="200" y="112" text-anchor="middle" fill="#00D4FF" font-size="10" font-family="monospace" opacity="0.7">THE GATE</text>
-
-          <!-- Pulse ring -->
-          <rect x="136" y="64" width="128" height="64" rx="10" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.2">
-            <animate attributeName="opacity" values="0.2;0.05;0.2" dur="3s" repeatCount="indefinite"/>
-          </rect>
-
-          <!-- Flow labels -->
-          <text x="200" y="160" text-anchor="middle" fill="#475569" font-size="10" font-family="monospace">Request → Approve → Execute → Audit</text>
-
-          <!-- Target nodes -->
-          <rect x="60" y="240" width="120" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="120" y="258" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Active</text>
-          <text x="120" y="274" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">Directory</text>
-
-          <rect x="220" y="240" width="120" height="44" rx="6" fill="#151D38" stroke="#253058" stroke-width="1"/>
-          <text x="280" y="262" text-anchor="middle" fill="#94A3B8" font-size="11" font-family="monospace">LDAP</text>
-
-          <!-- Keycloak federates from AD -->
-          <line x1="120" y1="284" x2="120" y2="310" stroke="#475569" stroke-width="1" stroke-dasharray="3 3" opacity="0.5"/>
-          <text x="200" y="308" text-anchor="middle" fill="#475569" font-size="9" font-family="monospace">Keycloak federates from AD automatically</text>
-        </svg>
+        <div class="overflow-hidden rounded-xl border border-white/10 shadow-2xl shadow-cyan-400/5">
+          <img
+            src="/images/dashboard.png"
+            alt="G8ID Dashboard — identity overview with activity log, connector status, and approval queue"
+            class="w-full"
+            loading="eager"
+          />
+        </div>
       </div>
     </div>
   </div>

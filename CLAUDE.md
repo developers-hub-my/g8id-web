@@ -46,17 +46,10 @@ src/
 │   ├── Hero.astro
 │   ├── ProblemSection.astro
 │   ├── SolutionSection.astro
-│   ├── FeaturesSection.astro
-│   ├── LifecycleSection.astro
-│   ├── OnPremiseSection.astro
-│   ├── WhyOnPremiseSection.astro
 │   ├── ModulesSection.astro
-│   ├── OffboardingSection.astro
-│   ├── IntegrationsSection.astro
-│   ├── UseCasesSection.astro
 │   ├── HowItWorksSection.astro
 │   ├── ComplianceSection.astro
-│   ├── DocsSection.astro
+│   ├── UseCasesSection.astro
 │   ├── CtaSection.astro
 │   └── Footer.astro
 ├── layouts/
