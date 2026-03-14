@@ -66,7 +66,7 @@ Use branded `@g8id.com` emails only. Never use `@devhub.my` on the public site:
 | Purpose          | Email               |
 | :--------------- | :------------------ |
 | Demo requests    | `sales@g8id.com`    |
-| General contact  | `hello@g8id.com`    |
+| General contact  | `tech@devhub.my`    |
 | Security         | `security@g8id.com` |
 
 ### Industries and Compliance

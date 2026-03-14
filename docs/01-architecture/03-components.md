@@ -85,7 +85,7 @@ All public-facing emails use branded `@g8id.com` addresses:
 | Address              | Usage                           |
 | :------------------- | :------------------------------ |
 | `sales@g8id.com`     | Demo request CTAs               |
-| `hello@g8id.com`     | General contact, nav, footer    |
+| `tech@devhub.my`     | General contact, nav, footer    |
 | `security@g8id.com`  | Security disclosure, footer     |
 
 > **Important**: Never use `@devhub.my` addresses on the public site.
