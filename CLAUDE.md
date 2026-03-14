@@ -32,9 +32,8 @@ G8ID is an **on-premise Identity Data Management (IDM) system** built by **Devel
 
 | G8ID Address | Forwards To | Purpose |
 |---|---|---|
-| `sales@g8id.com` | internal | Demo requests |
-| `tech@devhub.my` | direct | General contact |
-| `security@g8id.com` | internal | Security disclosures |
+| `hello@devhub.my` | direct | Demo requests, general enquiries |
+| `tech@devhub.my` | direct | General contact, security disclosures |
 
 Never use `@devhub.my` addresses on the public site.
 
